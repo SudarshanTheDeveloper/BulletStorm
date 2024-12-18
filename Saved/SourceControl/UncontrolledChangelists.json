@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Admin/Documents/Unreal Projects/BulletStorm/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/Admin/Documents/Unreal Projects/BulletStorm/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/CollectionMaps/Map1.umap",
+				"C:/Users/Admin/Documents/Unreal Projects/BulletStorm/Content/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/WraithPlayerCharacter.uasset",
+				"C:/Users/Admin/Documents/Unreal Projects/BulletStorm/Content/Blueprint/Bp_Pawn.uasset",
+				"C:/Users/Admin/Documents/Unreal Projects/BulletStorm/Content/Blueprint/Bp_ShooterCharacter.uasset",
+				"C:/Users/Admin/Documents/Unreal Projects/BulletStorm/Content/Maps/Map1.umap",
+				"C:/Users/Admin/Documents/Unreal Projects/BulletStorm/Content/Maps/ShooterSpace.umap",
+				"C:/Users/Admin/Documents/Unreal Projects/BulletStorm/Content/Blueprint/Bp_GameMode.uasset",
+				"C:/Users/Admin/Documents/Unreal Projects/BulletStorm/Content/Blueprint/Bp_ShooterGameMode.uasset"
+			]
+		}
+	]
+}
