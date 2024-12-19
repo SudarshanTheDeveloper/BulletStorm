@@ -31,14 +31,16 @@ private:
 	//Move Forward
 	void MoveForward(float AxisValue);
 
-	//MoveBackward
-	void MoveBackWards(float AxisValue);
+	//LookUp using gamepad
 
-	//LookUp using mouse
-	//commenting this up because we can call the lookup value directly for the pawn class using AddControllerPitchInput
-	//void LookUp(float AxisValue);
+	void LookUpRate(float AxisValue);
+
+	void LookRightRate(float AxisValue);
 
 	//Move Right
 	void MoveRight(float AxisValue);
 
+
+	UPROPERTY(EditAnywhere)
+	float RotationRate = 10;
 };
