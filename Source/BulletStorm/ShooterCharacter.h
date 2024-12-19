@@ -26,4 +26,19 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+private:
+	//Movement
+	//Move Forward
+	void MoveForward(float AxisValue);
+
+	//MoveBackward
+	void MoveBackWards(float AxisValue);
+
+	//LookUp using mouse
+	//commenting this up because we can call the lookup value directly for the pawn class using AddControllerPitchInput
+	//void LookUp(float AxisValue);
+
+	//Move Right
+	void MoveRight(float AxisValue);
+
 };
