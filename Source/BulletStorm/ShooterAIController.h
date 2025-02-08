@@ -16,11 +16,17 @@ class BULLETSTORM_API AShooterAIController : public AAIController
 public:
 	virtual void Tick(float DeltaSeconds)override;
 
+	UPROPERTY(EditAnywhere)
+	class UBehaviorTree* AIBehavior;
+
 protected:
 	virtual void BeginPlay() override;
 
 private:
-	UPROPERTY(EditAnywhere)
-	float AcceptanceRadius = 200;
+	/*UPROPERTY(EditAnywhere)
+	class UBehaviorTree* AIBehavior;*/
+	//float AcceptanceRadius = 200;
+	
+
 
 };
